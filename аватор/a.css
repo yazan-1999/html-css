@@ -1,0 +1,18 @@
+.cont{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black(0,0,0,.2);
+  border-radius: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.cont img{
+
+  transition: 5s;
+}
+.cont:hover img{
+  margin-top: -250px;
+}
+h2{
+  margin-top: 0px;
+}

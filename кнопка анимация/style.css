@@ -1,0 +1,27 @@
+a{
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 10px 20px;
+  background: linear-gradient(grey, white , grey);
+  color:black;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 3px;
+
+  margin: 100px  ;
+  animation: jump 800ms cubic-bezier(.1,.25,.1,1) infinite alternate;
+  border-radius: 10px;
+}
+@keyframes jump{
+  0%{
+    margin: 100px;
+    box-shadow:3px 3px 5px black ;
+  }
+  100%{
+    margin-top: 50px;
+    box-shadow:0 50px 70px black ;
+
+
+  }
+
+}

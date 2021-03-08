@@ -1,0 +1,766 @@
+body {
+  margin: 0;
+  background-color: #1a1a1a;
+}
+
+.conteiner {
+  width: 200px;
+  height: 200px;
+  border: 2px solid green;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+}
+
+.conteiner div:nth-child(1) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(6deg);
+          transform: rotate(6deg);
+}
+
+.conteiner div:nth-child(2) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
+}
+
+.conteiner div:nth-child(3) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(18deg);
+          transform: rotate(18deg);
+}
+
+.conteiner div:nth-child(4) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(24deg);
+          transform: rotate(24deg);
+}
+
+.conteiner div:nth-child(5) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  width: 18px;
+  background-color: #e6e6e6;
+}
+
+.conteiner div:nth-child(6) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(36deg);
+          transform: rotate(36deg);
+}
+
+.conteiner div:nth-child(7) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(42deg);
+          transform: rotate(42deg);
+}
+
+.conteiner div:nth-child(8) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(48deg);
+          transform: rotate(48deg);
+}
+
+.conteiner div:nth-child(9) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(54deg);
+          transform: rotate(54deg);
+}
+
+.conteiner div:nth-child(10) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+  width: 18px;
+  background-color: #e6e6e6;
+}
+
+.conteiner div:nth-child(11) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(66deg);
+          transform: rotate(66deg);
+}
+
+.conteiner div:nth-child(12) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(72deg);
+          transform: rotate(72deg);
+}
+
+.conteiner div:nth-child(13) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(78deg);
+          transform: rotate(78deg);
+}
+
+.conteiner div:nth-child(14) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(84deg);
+          transform: rotate(84deg);
+}
+
+.conteiner div:nth-child(15) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 18px;
+  background-color: #e6e6e6;
+  width: 28px;
+  background-color: orange;
+}
+
+.conteiner div:nth-child(16) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(96deg);
+          transform: rotate(96deg);
+}
+
+.conteiner div:nth-child(17) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(102deg);
+          transform: rotate(102deg);
+}
+
+.conteiner div:nth-child(18) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(108deg);
+          transform: rotate(108deg);
+}
+
+.conteiner div:nth-child(19) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(114deg);
+          transform: rotate(114deg);
+}
+
+.conteiner div:nth-child(20) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(120deg);
+          transform: rotate(120deg);
+  width: 18px;
+  background-color: #e6e6e6;
+}
+
+.conteiner div:nth-child(21) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(126deg);
+          transform: rotate(126deg);
+}
+
+.conteiner div:nth-child(22) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(132deg);
+          transform: rotate(132deg);
+}
+
+.conteiner div:nth-child(23) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(138deg);
+          transform: rotate(138deg);
+}
+
+.conteiner div:nth-child(24) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(144deg);
+          transform: rotate(144deg);
+}
+
+.conteiner div:nth-child(25) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(150deg);
+          transform: rotate(150deg);
+  width: 18px;
+  background-color: #e6e6e6;
+}
+
+.conteiner div:nth-child(26) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(156deg);
+          transform: rotate(156deg);
+}
+
+.conteiner div:nth-child(27) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(162deg);
+          transform: rotate(162deg);
+}
+
+.conteiner div:nth-child(28) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(168deg);
+          transform: rotate(168deg);
+}
+
+.conteiner div:nth-child(29) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(174deg);
+          transform: rotate(174deg);
+}
+
+.conteiner div:nth-child(30) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 18px;
+  background-color: #e6e6e6;
+  width: 28px;
+  background-color: orange;
+}
+
+.conteiner div:nth-child(31) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(186deg);
+          transform: rotate(186deg);
+}
+
+.conteiner div:nth-child(32) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(192deg);
+          transform: rotate(192deg);
+}
+
+.conteiner div:nth-child(33) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(198deg);
+          transform: rotate(198deg);
+}
+
+.conteiner div:nth-child(34) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(204deg);
+          transform: rotate(204deg);
+}
+
+.conteiner div:nth-child(35) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+  width: 18px;
+  background-color: #e6e6e6;
+}
+
+.conteiner div:nth-child(36) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(216deg);
+          transform: rotate(216deg);
+}
+
+.conteiner div:nth-child(37) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(222deg);
+          transform: rotate(222deg);
+}
+
+.conteiner div:nth-child(38) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(228deg);
+          transform: rotate(228deg);
+}
+
+.conteiner div:nth-child(39) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(234deg);
+          transform: rotate(234deg);
+}
+
+.conteiner div:nth-child(40) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(240deg);
+          transform: rotate(240deg);
+  width: 18px;
+  background-color: #e6e6e6;
+}
+
+.conteiner div:nth-child(41) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(246deg);
+          transform: rotate(246deg);
+}
+
+.conteiner div:nth-child(42) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(252deg);
+          transform: rotate(252deg);
+}
+
+.conteiner div:nth-child(43) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(258deg);
+          transform: rotate(258deg);
+}
+
+.conteiner div:nth-child(44) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(264deg);
+          transform: rotate(264deg);
+}
+
+.conteiner div:nth-child(45) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  width: 18px;
+  background-color: #e6e6e6;
+  width: 28px;
+  background-color: orange;
+}
+
+.conteiner div:nth-child(46) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(276deg);
+          transform: rotate(276deg);
+}
+
+.conteiner div:nth-child(47) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(282deg);
+          transform: rotate(282deg);
+}
+
+.conteiner div:nth-child(48) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(288deg);
+          transform: rotate(288deg);
+}
+
+.conteiner div:nth-child(49) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(294deg);
+          transform: rotate(294deg);
+}
+
+.conteiner div:nth-child(50) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(300deg);
+          transform: rotate(300deg);
+  width: 18px;
+  background-color: #e6e6e6;
+}
+
+.conteiner div:nth-child(51) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(306deg);
+          transform: rotate(306deg);
+}
+
+.conteiner div:nth-child(52) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(312deg);
+          transform: rotate(312deg);
+}
+
+.conteiner div:nth-child(53) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(318deg);
+          transform: rotate(318deg);
+}
+
+.conteiner div:nth-child(54) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(324deg);
+          transform: rotate(324deg);
+}
+
+.conteiner div:nth-child(55) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(330deg);
+          transform: rotate(330deg);
+  width: 18px;
+  background-color: #e6e6e6;
+}
+
+.conteiner div:nth-child(56) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(336deg);
+          transform: rotate(336deg);
+}
+
+.conteiner div:nth-child(57) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(342deg);
+          transform: rotate(342deg);
+}
+
+.conteiner div:nth-child(58) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(348deg);
+          transform: rotate(348deg);
+}
+
+.conteiner div:nth-child(59) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(354deg);
+          transform: rotate(354deg);
+}
+
+.conteiner div:nth-child(60) {
+  position: absolute;
+  width: 10px;
+  height: 2.5px;
+  background-color: grey;
+  top: 100px;
+  -webkit-transform-origin: 100px 0;
+          transform-origin: 100px 0;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  width: 18px;
+  background-color: #e6e6e6;
+  width: 28px;
+  background-color: orange;
+}
+/*# sourceMappingURL=watches.css.map */

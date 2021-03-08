@@ -1,0 +1,40 @@
+$main-color: green;
+$secondory-color: grey;
+$seze:10px;
+
+body{
+  margin:0;
+  background-color: darken($secondory-color, 40);
+}
+.conteiner{
+    width:$seze * 20 ;
+    height:$seze * 20 ;
+    border: 2px solid $main-color;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+
+    @for $i from 1 through 60{
+    div:nth-child(#{$i}){
+      position: absolute;
+      width: $seze;
+      height: $seze / 4;
+      background-color:$secondory-color ;
+      top: $seze * 10;
+      transform-origin: $seze * 10 0;
+      transform: rotate($i * 6deg);
+      @if $i % 5 == 0 {
+        width: $seze * 1.8;
+        background-color: darken( 
+          white, 10);
+      }
+      @if $i % 15 == 0{
+        width: $seze * 2.8;
+        background-color:orange;
+
+      }
+      
+
+    }
+  }
+}

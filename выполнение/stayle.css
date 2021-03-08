@@ -1,0 +1,20 @@
+div{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.a{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.b{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.c{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

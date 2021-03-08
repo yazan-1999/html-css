@@ -1,0 +1,37 @@
+div{
+width: 200px;
+height: 200px;
+border: 20px solid purple;
+border-radius: 100%;
+
+}
+.outer{
+  padding: 40px ;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  transition: transform 5s;
+  
+}
+.inner{
+
+  margin-top:-20px;
+  margin-left:-20px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  transition: transform 5s,border-top-color 5s,
+  border-bottom-color 5s;
+  
+
+}
+.outer:hover{
+  transform: rotate(90deg);
+  
+  
+
+}
+.outer:hover .inner{
+  transform: rotate(-1800deg);
+  border-top-color: yellow;
+  border-bottom-color: yellow;
+
+}

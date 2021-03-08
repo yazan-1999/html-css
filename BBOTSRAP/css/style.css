@@ -1,0 +1,32 @@
+:root{
+  --main-color:#1ABC9C;
+  --secondary-color:#2c3e50;
+  --main-family:'Montserrat', sans-serif;
+  --seconndory-family:'Lato', sans-serif;
+
+}
+.my-navbar{
+  background-color: var(--secondary-color);
+  font-family: var(--main-family);
+}
+.logo{
+  font-size: 1.5em;
+}
+.intro{
+  background-color: var(--main-color);
+}
+.intro h1{
+  font-size: 4rem;
+  line-height: 3.5rem;
+  font-family: var(--main-family);
+}
+.intro p {
+  font-family: var(--seconndory-family);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.star .left-line, .star .right-line{
+  display: inline-block;
+  width: 115px;
+  height: 4px;
+}

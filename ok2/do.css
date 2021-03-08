@@ -1,0 +1,46 @@
+.conreiner{
+  width: 300px;
+  height: 300px;
+  background-image: url(https://static.bangkokpost.com/media/content/20200114/c1_3487569.jpg);
+  background-size: cover;
+  /* border: 1px solid black; */
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 50px;
+
+}
+.conreiner div:not(.circle){
+  background-color: #0081ff;
+}
+.circle{
+  width: 100px;
+  height: 100px;
+  border: 20px solid #0081ff;
+  border-radius: 100%;
+  margin: auto;
+  border-left-color: transparent;
+  transform: rotate(-45deg);
+}
+.sbb{
+  width: 20px;
+  height: 20px;
+  margin-top: -40px;
+  margin-left: 129px;
+}
+.smm{
+  width: 15px;
+  height: 15px;
+  margin-top: 0px;
+  margin-left: 114px;
+}
+.ssm{
+  width: 10px;
+  height: 10px;
+  margin-top: -25px;
+  margin-left: 104px;
+}
+
+h1{
+  color: #0081ff;
+  margin-top: 35px;
+}

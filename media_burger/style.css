@@ -1,0 +1,76 @@
+/* стии для меню */
+nav{
+  background-color: gray;
+  overflow: hidden;
+
+}
+.logo{
+  float: left;
+  margin-left: 1.5em;
+}
+.menu{
+  float: right;
+}
+.menu li{
+  display: inline-block;
+}
+.menu a{
+  display: block;
+  font-size: 1.5em;
+  padding: 1.5em 1.5em;
+  text-decoration: none;
+  color: black;
+}
+.menu li:last-child{
+  display: none;
+}
+/* стили для секций */
+.section-left{
+  float: left;
+  width: 30%;
+  background-color: burlywood;
+}
+section{
+  height: 930px;
+}
+.section-right{
+  float: right;
+  width: 70%;
+  background-color: cyan;
+}
+.section-right img{
+  float: left;
+  margin-right: 20px;
+}
+footer{
+  background-color: darkgreen;
+  color: wheat;
+  text-align: center;
+  clear: both;
+
+}
+footer p{
+  padding: 20px ;
+}
+
+@media screen and (max-width: 700px){
+
+  .menu li:not(:last-child){
+    display: none;
+  }
+  .menu li:last-child{
+    display: inline-block;
+  }
+
+  .section-right, .section-left{
+    float: none;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px){
+  .section-right img{
+    float: none;
+    margin-bottom: 20px;
+    height: 260px;
+  }
+}

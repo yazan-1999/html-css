@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+}
+
+.conteiner{
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+  grid-template-rows: 80px auto 80px;
+  grid-template-areas: 
+  "header header header"
+  "main main sidebar"
+  "footer footer footer"
+  ;
+  height: 100vh;
+
+}
+.header{
+  grid-area: header;
+  background-color: rgb(14, 167, 128);
+}
+.sidebar{
+  grid-area: s idebar;
+  background-color: rgb(145, 18, 18);
+}
+.footer{
+  grid-area: footer;
+  background-color: rgb(37, 76, 102);
+}

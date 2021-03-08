@@ -1,0 +1,23 @@
+.conteiner{
+  width: 500px;
+  margin: auto;
+  transform: rotate(-45deg);
+}
+
+
+.conteiner div{
+  width: 300px;
+  height: 100px;
+  border: 50px solid peru;
+}
+.conteiner :first-child{
+  border-bottom: none;
+  border-right: none; 
+}
+.conteiner :last-child{
+  border-top: none;
+  border-left: none;
+  margin-top: -30px;
+  margin-left:-230px;
+
+}

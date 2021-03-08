@@ -1,0 +1,98 @@
+
+
+img{
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, .5);
+}
+.cont{
+  position: relative;
+  border: 1px solid black;
+  width: 445px;
+  height: 334px;
+
+  
+}
+.cont *{
+  position: absolute;
+  color: white;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrappwer{
+  cursor: pointer;
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.1);
+
+}
+.wrappwer:hover{
+  background: rgba(255, 255, 255, 0.35);
+
+}
+.box{
+  margin-top: 40px;
+  background-color:  white;
+  width: 340px;
+  height: 2px;
+  
+  
+}
+.wrappwer:hover .box{
+  box-sizing: border-box;
+  margin-top: 60px;
+  background: rgba(255, 255, 255, 0.7);
+  height: 0px;
+  transform: translateY(40px);
+  transition: 0.6s;
+  padding: 2.25em 0.5em;
+  font-size: 100%;
+  transform: translate3d(0,-10px,0);
+  padding: 2.25em 0.5em;
+  font-weight: 600;
+  font-size: 100%;
+  line-height: 1.5;
+  text-align: left;
+  padding-top: 10px;
+  border-radius: 4px;
+
+}
+.wrappwer:hover .box a img{
+  margin-left: 10px;
+  background: transparent;
+  width: 30px;
+  height: 30px;
+
+}
+
+.wrappwer:hover .box a:first-child{
+  margin-left: 20px;
+  background: rgba(0,0,0,.7);
+  padding-bottom: 10px;
+}
+.wrappwer:hover .box a:nth-child(2){
+  margin-left: 80px;
+  background: rgba(0,0,0,.7);
+}
+.wrappwer:hover .box a:nth-child(3){
+  margin-left: 140px;
+}
+.wrappwer:hover .box a:nth-child(4){
+  margin-left: 200px;
+}
+.cover{
+  margin-top: 0px;
+  background-color: white ;
+}
+h2{
+  display: block;
+  font-size: 1.5em;
+  font-size: 30px;
+  word-spacing: 1px;
+}
+h2 > span{
+  font-weight: 800;
+  margin-left: 5px;
+}

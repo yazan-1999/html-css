@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  margin: 0;
+  height: 100vh;
+}
+nav{
+  flex: 1;
+  background-color: rosybrown;
+}
+.content{
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+header, footer{
+  background-color: sandybrown;
+  flex: 1;
+}
+.meddle{
+  display: flex;
+  flex-direction: row;
+  flex: 5;
+}
+article{
+  flex: 1;
+  background-color: sienna;
+}
+aside{
+  flex: 3;
+}
+@media screen and (max-width: 1000px){
+  .meddle{
+    flex-direction: column;
+  }
+  article{
+    flex: 1;
+  }
+  aside{
+    flex: 1;
+  }
+}
